@@ -1,0 +1,83 @@
+<!doctype html>
+<!--
+Copyright 2013 The Polymer Authors. All rights reserved.
+Use of this source code is governed by a BSD-style
+license that can be found in the LICENSE file.
+-->
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1, user-scalable=yes">
+
+  <title>paper-fab</title>
+
+  <script src="../components/webcomponentsjs/webcomponents.js"></script>
+
+  <link href="../components/font-roboto/roboto.html" rel="import">
+  <link href="../components/core-icons/core-icons.html" rel="import">
+
+  <style shim-shadowdom>
+
+    body {
+      font-family: RobotoDraft, 'Helvetica Neue', Helvetica, Arial;
+      font-size: 14px;
+      margin: 0;
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+      -webkit-touch-callout: none;
+    }
+
+    p{
+        font-size:15px;
+        line-height:23px;
+    }
+
+    section {
+      position: relative;
+      overflow: hidden;
+      min-height: 600px;
+      padding-top: 50px;
+      padding-bottom: 60px;
+      text-align: center;
+    }
+    
+    #core-card{
+        background-image: url(http://gdgdc.com/images/bg/clouds180.png);
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        border-radius: 0 0 2px 2px;
+        padding: 1em;
+        margin: 0 0 15px;
+    }
+
+    #title{
+        font-weight: 100;
+        text-align: right;
+        font-size: x-large;
+        margin-top: 0;
+    }
+
+    #about{
+        font-weight: 300;
+        text-align: left;
+    }
+
+  </style>
+
+</head>
+<body unresolved>
+  <section id="core-card">
+        <div id="header-box">
+            <p id="title">简介</p>
+            <p id="about">
+                Welcome to ChongQing GDG !  :-)
+                <br><br>
+                重庆GDG成立于2015年，是一个非盈利的、自由独立的纯IT技术社区，由一群热爱分享的的开发者自发组建，线上线下交流和分享Google技术（涵盖包括Android、Chrome、GCE等），开放技术、开源技术是社区平时最主要的活动，社区的活动经费由谷歌公司赞助。
+
+            </p>
+        </div>
+    </section>
+</body>
+</html>
