@@ -34,14 +34,14 @@
 				<div id="card" on-transitionend="{{cardTransitionDone}}" style="display:block"></div>
 	     	</core-header-panel>
 	      	<core-header-panel drawer>
-				<core-menu id="menu" selected="0" on-core-select="{{ menuSelect }}">
-						<core-item label="重庆谷歌开发者社区简介" tag="chongqinggdg" url="templates/chongqinggdg.html" horizontal center  layout></core-item>
+				<core-menu id="menu" on-core-select="{{ menuSelect }}">
+						
 				</core-menu>
 	      	</core-header-panel>
 	    </core-drawer-panel>
 	    <paper-icon-button class="menuButton" icon="menu" role="button" tabindex="0" aria-label="menu"></paper-icon-button>
 	<paper-fab class="sourceButton bottom" icon="add" id="paper_fab" onclick="window.open('https://plus.google.com/u/1/+GDGChongqing/', '_blank');" role="button" tabindex="0" aria-label="add"></paper-fab>
-	
+	<core-item label="重庆谷歌开发者社区简介" tag="chongqinggdg" url="templates/chongqinggdg.html" horizontal center  layout></core-item>
 	</sampler-scaffold>
 	 	
   
